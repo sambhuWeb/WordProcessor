@@ -4,8 +4,8 @@
 
   1. Create & Push Git Tag:
   
-        git tag v1.0.0
-        git push origin --tags
+         git tag v1.0.0
+         git push origin --tags
   
   2. Login to Npm
   
