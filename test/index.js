@@ -64,6 +64,30 @@ describe('Word Processor Test', function() {
         expect(totalCharacters).equal(9);
     });
 
+    it('It correctly counts word of the given roman string', async () => {
+        // Given
+        const textBlock = 'one';
+
+        // When
+        const wordProcessor = new WordProcessor();
+        const totalCharacters = wordProcessor.countWord(textBlock);
+
+        // Then
+        expect(totalCharacters).equal(1);
+    });
+
+    it('It correctly counts word of the given roman string', async () => {
+        // Given
+        const textBlock = '';
+
+        // When
+        const wordProcessor = new WordProcessor();
+        const totalCharacters = wordProcessor.countWord(textBlock);
+
+        // Then
+        expect(totalCharacters).equal(0);
+    });
+
     it('It correctly counts word of the given nepali string', async () => {
         // Given
         const textBlock = 'एउटा अल्छी कुकुरमा छिटो खैरो फ्याक्स उफ्रिन्छ';
