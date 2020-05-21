@@ -11,9 +11,9 @@ module.exports = class WordProcessor {
 
     countWord(textBlock) {
 
-        console.log(textBlock.trim().split(' '));
-
-        if (textBlock.trim().split(' ').length === 1 && textBlock.trim().split(' ')[0] === '') {
+        if (textBlock.trim().split(' ').length === 1
+            && textBlock.trim().split(' ')[0] === ''
+        ) {
             return 0;
         }
 
