@@ -49,3 +49,7 @@
          npm notice total files:   4                                       
          npm notice 
          + wordprocessor@1.0.0
+         
+ ## Running Test
+  
+    npm test
