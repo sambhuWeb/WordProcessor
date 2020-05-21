@@ -1,0 +1,19 @@
+{
+  "name": "wordprocessor",
+  "version": "1.0.0",
+  "description": "Process the word",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sambhuWeb/WordProcessor.git"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2"
+  },
+  "author": "Sambhu Singh",
+  "license": "MIT"
+}
